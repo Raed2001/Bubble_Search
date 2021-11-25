@@ -1,13 +1,8 @@
 public class Partition {
 
-    public static void main(String[] args) {
 
-        Integer[] toSearch={13,19,9,5,12,8,7,4,21,2,6,11};
-System.out.println(partition(toSearch,0,5));
 
-    }
-
-    private static Integer partition(Integer[] toSearch,int p, int r){
+  public Integer partitioniere(Integer[] toSearch,int p, int r){
         int xchange1;
         int xchange2;
         int x=toSearch[r];
